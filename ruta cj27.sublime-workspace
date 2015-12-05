@@ -1,0 +1,2414 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"arraymer",
+				"array_merge"
+			],
+			[
+				"arapu",
+				"array_push()	standard Function"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"lay",
+				"layouts"
+			],
+			[
+				"Contacts",
+				"ContactsRequest	(ContactsRequest.php)"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"conta",
+				"contact"
+			],
+			[
+				"Fields",
+				"Field::string	VARCHAR equivalent with a length (optional)"
+			],
+			[
+				"Field",
+				"Field::default	Declare a default value for a column"
+			],
+			[
+				"Contact",
+				"ContactsController	(ContactsController.php)"
+			],
+			[
+				"C",
+				"Contact	(ContactsController.php)"
+			],
+			[
+				"Fieldtime",
+				"Field::timestamp	TIMESTAMP equivalent to the table"
+			],
+			[
+				"Fieldate",
+				"Field::dateTime	DATETIME equivalent to the table"
+			],
+			[
+				"Image",
+				"ImageUploader	(ImageUploader.php)"
+			],
+			[
+				"birth",
+				"birthdaysToday"
+			],
+			[
+				"bir",
+				"birthdaysToday	(HomeController.php)"
+			],
+			[
+				"birt",
+				"birthdays	(routes.php)"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"getbir",
+				"getBirthdaysTodayCounth	(Driver.php)"
+			],
+			[
+				"getBir",
+				"getBirthdaysThisMonthCounth	(Driver.php)"
+			],
+			[
+				"birththis",
+				"birthdaysThisMonth	(HomeController.php)"
+			],
+			[
+				"strtotime",
+				"strtotime()	date Function"
+			],
+			[
+				"Fiel",
+				"Field::string	VARCHAR equivalent with a length (optional)"
+			],
+			[
+				"fu",
+				"full_name"
+			],
+			[
+				"full_",
+				"full_name	(DriversController.php)"
+			],
+			[
+				"expl",
+				"explode()	standard Function"
+			],
+			[
+				"Driver",
+				"DriversController"
+			],
+			[
+				"Routeg",
+				"Route::get	Basic Route with Closure"
+			],
+			[
+				"compa",
+				"compact()	standard Function"
+			],
+			[
+				"Fieldstring",
+				"Field::string	VARCHAR equivalent with a length (optional)"
+			],
+			[
+				"Formte",
+				"Form-textarea	Form-textarea"
+			],
+			[
+				"Routegetcon",
+				"Route::getController	Route to Controller Action"
+			],
+			[
+				"plug",
+				"plugin	plugin (selector)"
+			],
+			[
+				"strotime",
+				"strtotime()	date Function"
+			],
+			[
+				"Fieldti",
+				"Field::timestamp	TIMESTAMP equivalent to the table"
+			],
+			[
+				"toJson",
+				"toJson(obj, pretty)	angular-scenario.js"
+			],
+			[
+				"curre",
+				"current_user	(AuthController.js)"
+			],
+			[
+				"seC",
+				"setContacts"
+			],
+			[
+				"module",
+				"module	(ContactsController.js)"
+			],
+			[
+				"dri",
+				"drivers"
+			],
+			[
+				"cword",
+				"ucwords()	standard Function"
+			],
+			[
+				"auth",
+				"authenticatedUser"
+			],
+			[
+				"au",
+				"authenticatedUser"
+			],
+			[
+				"reject",
+				"reject(reason)	angular.js"
+			],
+			[
+				"defer",
+				"defer()	angular.js"
+			],
+			[
+				"serv",
+				"service	AngularJS"
+			],
+			[
+				"ea",
+				"each	$.each()"
+			],
+			[
+				"conso",
+				"consoleLog(type)	angular-scenario.js"
+			],
+			[
+				"arraypu",
+				"array_push()	standard Function"
+			],
+			[
+				"filt",
+				"filter( selector )	angular-scenario.js"
+			],
+			[
+				"Routep",
+				"Route-post	Route-post"
+			],
+			[
+				"succ",
+				"success(fn)	angular-scenario.js"
+			],
+			[
+				"suc",
+				"success(data)	gcal.js"
+			],
+			[
+				"Rg",
+				"Route-group	Route-group"
+			],
+			[
+				"Fieldstri",
+				"Field::string	VARCHAR equivalent with a length (optional)"
+			],
+			[
+				"Sche",
+				"Schema-create	Schema-create"
+			],
+			[
+				"filter",
+				"filter( selector )	angular-scenario.js"
+			],
+			[
+				"_filter",
+				"verbose_$filter	AngularJS"
+			],
+			[
+				"li",
+				"line-through"
+			],
+			[
+				"getTodos",
+				"getTodos()	controllers.js"
+			],
+			[
+				"ngv",
+				"ng-view	AngularJS"
+			],
+			[
+				"em",
+				"employee"
+			],
+			[
+				"routepa",
+				"$routeParams	AngularJS"
+			],
+			[
+				"ngre",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"Route",
+				"Route-group	Route-group"
+			],
+			[
+				"fac",
+				"factory(string, Function)	angular-loader.js"
+			],
+			[
+				"$htt",
+				"$http	AngularJS"
+			],
+			[
+				"emp",
+				"employee_id"
+			],
+			[
+				"Inpua",
+				"Input-ajax	Input-ajax"
+			],
+			[
+				"get",
+				"get	.get()"
+			],
+			[
+				"plugin",
+				"plugin	plugin (method extras)"
+			],
+			[
+				"preven",
+				"preventDefault()	jquery.js"
+			],
+			[
+				"plu",
+				"plugin	plugin (selector)"
+			],
+			[
+				"funcit",
+				"function"
+			],
+			[
+				"ex",
+				"exerpt	(show.html)"
+			],
+			[
+				"Post",
+				"PostsController	(app.js)"
+			],
+			[
+				"templateUrl",
+				"templateUrl(elem, attr)	script.js"
+			],
+			[
+				"empl",
+				"employees"
+			],
+			[
+				"isSe",
+				"isSelected	(app.js)"
+			],
+			[
+				"Fieldstr",
+				"Field::string	VARCHAR equivalent with a length (optional)"
+			],
+			[
+				"Fieldst",
+				"Field::string	VARCHAR equivalent with a length (optional)"
+			],
+			[
+				"Fieldnu",
+				"Field::unique	Add a unique index"
+			],
+			[
+				"Filedda",
+				"Field::dateTime	DATETIME equivalent to the table"
+			],
+			[
+				"Fielddate",
+				"Field::dateTime	DATETIME equivalent to the table"
+			],
+			[
+				"File",
+				"File-files	File-files"
+			],
+			[
+				"Input",
+				"Input-all	Input-all"
+			],
+			[
+				"Form-",
+				"Form-image	Form-image"
+			],
+			[
+				"view",
+				"view()	mixed"
+			],
+			[
+				"col",
+				"col-sm-offset-2"
+			],
+			[
+				"emplo",
+				"employees	(employees.php)"
+			],
+			[
+				"trim",
+				"trim()	standard Function"
+			],
+			[
+				"produ",
+				"products"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"where",
+				"whereUsername"
+			],
+			[
+				"with",
+				"withSuccess"
+			],
+			[
+				"route",
+				"route('positions	(create.blade.php)"
+			],
+			[
+				"positio",
+				"position"
+			],
+			[
+				"payment",
+				"payment_id	(Position.php)"
+			],
+			[
+				"Fied",
+				"Field::double	DOUBLE equivalent with precision"
+			],
+			[
+				"loc",
+				"localOptions"
+			],
+			[
+				"arrymer",
+				"array_merge"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"local",
+				"localPath"
+			],
+			[
+				"addre",
+				"address"
+			],
+			[
+				"src",
+				"script	HTML - Script"
+			],
+			[
+				"response",
+				"responseJSON	(edit.blade.php)"
+			],
+			[
+				"PATHIN",
+				"PATHINFO_EXTENSION	standard Constant"
+			],
+			[
+				"exte",
+				"extension	(ArticlesController.php)"
+			],
+			[
+				"Formfile",
+				"Form::openWithFileUpload	Open a Form and Enable File Upload"
+			],
+			[
+				"addres",
+				"addresses"
+			],
+			[
+				"input",
+				"input('department"
+			],
+			[
+				"address",
+				"addresses	(Employee.php)"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"position",
+				"position_id	(_form.blade.php)"
+			],
+			[
+				"Sch",
+				"Schema-drop	Schema-drop"
+			],
+			[
+				"Schemaal",
+				"Schema::table	Update an existing table"
+			],
+			[
+				"cas",
+				"cascade"
+			],
+			[
+				"depart",
+				"department_id"
+			],
+			[
+				"Hom",
+				"HomeController"
+			],
+			[
+				"col-sm-",
+				"col-sm-offset-4"
+			],
+			[
+				"fai",
+				"fail(actual, expected, message, operator)	chai.js"
+			],
+			[
+				"has",
+				"has_kids"
+			],
+			[
+				"Fielf",
+				"Field::foreign	Add a Foreign Key to a table"
+			],
+			[
+				"Fieldfore",
+				"Field::foreign	Add a Foreign Key to a table"
+			],
+			[
+				"Fieldin",
+				"Field::integer	INTEGER equivalent to the table"
+			],
+			[
+				"btn",
+				"btn-link"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Contact.php",
+			"settings":
+			{
+				"buffer_size": 1015,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 2203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/ImageUploader.php",
+			"settings":
+			{
+				"buffer_size": 926,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/partials/webpage.blade.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/layouts/website.blade.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/website-partials/header.blade.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/todos/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 2080,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/helpers.php",
+			"settings":
+			{
+				"buffer_size": 1407,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/TodosController.php",
+			"settings":
+			{
+				"buffer_size": 3185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Requests/ContactsRequest.php",
+			"settings":
+			{
+				"buffer_size": 815,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 224.0,
+		"last_filter": "Snippet: myre",
+		"selected_items":
+		[
+			[
+				"Snippet: myre",
+				"Snippet: my_redirect_to_route"
+			],
+			[
+				"Snippet: myin",
+				"Snippet: my_blade_form_input"
+			],
+			[
+				"Snippet: bsradio",
+				"Snippet: bs3-input-radio"
+			],
+			[
+				"Snippet: bs-input",
+				"Snippet: bs3-input-radio"
+			],
+			[
+				"Snippet: myadd",
+				"Snippet: my_blade_form_input_addon"
+			],
+			[
+				"Snippet: myad",
+				"Snippet: my_blade_form_input_addon"
+			],
+			[
+				"Snippet: myinpadd",
+				"Snippet: my_blade_form_input_addon"
+			],
+			[
+				"Snippet: myfi",
+				"Snippet: my_blade_form_input"
+			],
+			[
+				"Snippet: bsimg",
+				"Snippet: bs3-image"
+			],
+			[
+				"Snippet: ima",
+				"Snippet: bs3-image"
+			],
+			[
+				"Snippet: tablecon",
+				"Snippet: bs3-table-condensed"
+			],
+			[
+				"Snippet: forea",
+				"Snippet: Blade @foreach"
+			],
+			[
+				"Snippet: if",
+				"Snippet: blade-if_else"
+			],
+			[
+				"Snippet: incl",
+				"Snippet: blade-include"
+			],
+			[
+				"Snippet: bs3tabs",
+				"Snippet: bs3-tabs"
+			],
+			[
+				"Snippet: myv",
+				"Snippet: my_blade_view"
+			],
+			[
+				"Snippet: panel",
+				"Snippet: bs3-panel-primary"
+			],
+			[
+				"Snippet: bsima",
+				"Snippet: bs3-image"
+			],
+			[
+				"Snippet: bsche",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"Snippet: myfor",
+				"Snippet: my_blade_form_open"
+			],
+			[
+				"Snippet: bsin",
+				"Snippet: bs3-sm-button-info"
+			],
+			[
+				"Snippet: fi",
+				"Snippet: file"
+			],
+			[
+				"Snippet: img",
+				"Snippet: bs3-image"
+			],
+			[
+				"Snippet: image",
+				"Snippet: Image - Placeholder"
+			],
+			[
+				"Snippet: myred",
+				"Snippet: my_redirect_to_route"
+			],
+			[
+				"Snippet: bsbutton",
+				"Snippet: bs3-button-primary"
+			],
+			[
+				"Snippet: myblaad",
+				"Snippet: my_blade_form_input_addon"
+			],
+			[
+				"Snippet:mybladd",
+				"Snippet: my_blade_form_input_addon"
+			],
+			[
+				"Snippet: mybladeadd",
+				"Snippet: my_blade_form_input_addon"
+			],
+			[
+				"Snippet: myblaadd",
+				"Snippet: my_blade_form_input_addon"
+			],
+			[
+				"Snippet: addon",
+				"Snippet: bs3-input-group-addon-text"
+			],
+			[
+				"Snippet: myerror",
+				"Snippet: my_blade_error_message_div"
+			],
+			[
+				"Snippet: myview",
+				"Snippet: my_blade_view"
+			],
+			[
+				"Snippet: myform",
+				"Snippet: my_blade_form_open"
+			],
+			[
+				"Snippet: ifel",
+				"Snippet: blade-if_else"
+			],
+			[
+				"Snippet: bs3image",
+				"Snippet: bs3-image"
+			],
+			[
+				"Snippet: bsbutt",
+				"Snippet: bs3-button"
+			],
+			[
+				"Snippet: tableres",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"Snippet: addont",
+				"Snippet: bs3-input-group-addon-text"
+			],
+			[
+				"Snippet: myimp",
+				"Snippet: my_blade_form_input"
+			],
+			[
+				"Snippet: formo",
+				"Snippet: my_blade_form_open"
+			],
+			[
+				"Snippet: ADDONT",
+				"Snippet: bs3-input-group-addon-text"
+			],
+			[
+				"Snippet: mybla",
+				"Snippet: my_blade_view"
+			],
+			[
+				"Snippet: myredire",
+				"Snippet: my_redirect_to_route"
+			],
+			[
+				"Snippet: blaif",
+				"Snippet: blade-if_else"
+			],
+			[
+				"Snippet: plu",
+				"Snippet: plugin (animation)"
+			],
+			[
+				"Snippet: bsrbutton",
+				"Snippet: Bootstrap primary button"
+			],
+			[
+				"Snippet: bsbt",
+				"Snippet: bs3-button-toolbar"
+			],
+			[
+				"Snippet: myfrm",
+				"Snippet: my_blade_form_input"
+			],
+			[
+				"Snippet: bladfore",
+				"Snippet: blade-foreach"
+			],
+			[
+				"Snippet: table",
+				"Snippet: bs3-table-condensed"
+			],
+			[
+				"Snippet: myf",
+				"Snippet: my_blade_form_input"
+			],
+			[
+				"Snippet: mf",
+				"Snippet: my_blade_form_input"
+			],
+			[
+				"Snippet: bs3navb",
+				"Snippet: bs3-navbar-form"
+			],
+			[
+				"Snippet: bs3-nav",
+				"Snippet: bs3-navbar-basic"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Snippet: che",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"Snippet: angular",
+				"Snippet: Angular.js"
+			],
+			[
+				"Snippet: slice",
+				"Snippet: .slice()"
+			],
+			[
+				"Snippet: filter",
+				"Snippet: .filter() function"
+			],
+			[
+				"Snippet: form",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"Snippet:bs3-list",
+				"Snippet: bs3-list-group"
+			],
+			[
+				"Snippet: check",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"Snippet: controll",
+				"Snippet: Controller"
+			],
+			[
+				"Snippet: bs3-input",
+				"Snippet: bs3-input-group-addon"
+			],
+			[
+				"Snippet: sear",
+				"Snippet: bs3-input-search-h"
+			],
+			[
+				"Snippet: tabcon",
+				"Snippet: bs3-table-condensed"
+			],
+			[
+				"Snippet: myse",
+				"Snippet: my_blade_form_select_horizontal"
+			],
+			[
+				"Snippet: myho",
+				"Snippet: my_blade_form_select_horizontal"
+			],
+			[
+				"Snippet: mysele",
+				"Snippet: mySelect"
+			],
+			[
+				"Snippet: mybaerr",
+				"Snippet: my_blade_error_message_div"
+			],
+			[
+				"Snippet: myva",
+				"Snippet: my_blade_error_message_div"
+			],
+			[
+				"package",
+				"Package Control: Create Package File"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"laravel",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: alert",
+				"Snippet: bs3-alert-warning"
+			],
+			[
+				"Snippet: error",
+				"Snippet: L5-BS Form:errors"
+			],
+			[
+				"Snippet: plugin",
+				"Snippet: plugin (method basic)"
+			],
+			[
+				"Snippet:plugin",
+				"Snippet: myqueryajaxpluggin"
+			],
+			[
+				"Snippet: text",
+				"Snippet: bs3-textarea-h"
+			],
+			[
+				"Snippet: inputtex",
+				"Snippet: bs3-input-text-h"
+			],
+			[
+				"Snippet: tabs",
+				"Snippet: bs3-tabs"
+			],
+			[
+				"Snippet: nav",
+				"Snippet: bs3-navbar-basic"
+			],
+			[
+				"Snippet: navb",
+				"Snippet: bs3-navbar-responsive"
+			],
+			[
+				"Snippet: unless",
+				"Snippet: blade-unless"
+			],
+			[
+				"Snippet: bstabs",
+				"Snippet: bs3-tabs"
+			],
+			[
+				"Snippet: ondele",
+				"Snippet: Eloquent-deleted"
+			],
+			[
+				"Snippet: myformo",
+				"Snippet: my_blade_form_open"
+			],
+			[
+				"Snippet: FormOpen",
+				"Snippet: my_blade_form_open"
+			],
+			[
+				"Snippet: Formfi",
+				"Snippet: L5-BS Form:textfield"
+			],
+			[
+				"Snippet: myfu",
+				"Snippet: my_blade_form_input_horizontal"
+			],
+			[
+				"Snippet: myforho",
+				"Snippet: my_blade_form_input_horizontal"
+			],
+			[
+				"Snippet: myformho",
+				"Snippet: my_blade_form_input_horizontal"
+			],
+			[
+				"Snippet: myformhor",
+				"Snippet: my_blade_form_input_horizontal"
+			],
+			[
+				"Snippet: unles",
+				"Snippet: blade-unless"
+			],
+			[
+				"Snippet: submit",
+				"Snippet: L5-BS Form:submit"
+			],
+			[
+				"Snippet: myhor",
+				"Snippet: my_blade_form_input_horizontal"
+			],
+			[
+				"Snippet: horizon",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"Snippet: myfo",
+				"Snippet: my_blade_form_input_horizontal"
+			],
+			[
+				"Snippet: l5",
+				"Snippet: L5-BS Form:errors"
+			],
+			[
+				"Snippet: listgroup",
+				"Snippet: bs3-list-group"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: lis",
+				"Snippet: bs3-list-group-linked"
+			],
+			[
+				"Snippet: list",
+				"Snippet: bs3-list-group-badges"
+			],
+			[
+				"Snippet: lisg",
+				"Snippet: bs3-list-group-linked"
+			],
+			[
+				"Snippet: listgrou",
+				"Snippet: bs3-list-group-content"
+			],
+			[
+				"Snippet: bs3list-",
+				"Snippet: bs3-list-group-content"
+			],
+			[
+				"Snippet: inclu",
+				"Snippet: blade-include"
+			],
+			[
+				"git",
+				"Github: Repository"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Snippet: tab",
+				"Snippet: bs3-tabs"
+			],
+			[
+				"Snippet: forei",
+				"Snippet: Add a Foreign Key to a table"
+			],
+			[
+				"Snippet: includ",
+				"Snippet: blade-include"
+			],
+			[
+				"Snippet: myim",
+				"Snippet: my_blade_form_input"
+			],
+			[
+				"Snippet: myblade",
+				"Snippet: my_blade_form_input"
+			],
+			[
+				"Snippet: myfrom",
+				"Snippet: my_blade_form_open"
+			],
+			[
+				"Snippet: bs3modal",
+				"Snippet: bs3-modal"
+			],
+			[
+				"Snippet: hasmny",
+				"Snippet: l5 hasMany relation"
+			],
+			[
+				"Snippet: belongs",
+				"Snippet: l5 belongsto relation"
+			],
+			[
+				"Snippet: navfor",
+				"Snippet: bs3-navbar-form"
+			],
+			[
+				"Snippet: navbarfo",
+				"Snippet: bs3-navbar-form"
+			],
+			[
+				"Snippet: mailto",
+				"Snippet: TIME equivalent to the table"
+			],
+			[
+				"Snippet: bs3-img",
+				"Snippet: bs3-image"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 117.0,
+		"history":
+		[
+			"php artisan",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"mport urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install p",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/wamp/www/ruta-cj27",
+		"/F/wamp/www/ruta-cj27/admin",
+		"/F/wamp/www/ruta-cj27/app",
+		"/F/wamp/www/ruta-cj27/app/Http",
+		"/F/wamp/www/ruta-cj27/public/assets",
+		"/F/wamp/www/ruta-cj27/public/images",
+		"/F/wamp/www/ruta-cj27/resources",
+		"/F/wamp/www/ruta-cj27/resources/views",
+		"/F/wamp/www/ruta-cj27/resources/views/layouts",
+		"/F/wamp/www/ruta-cj27/resources/views/layouts/website-partials"
+	],
+	"file_history":
+	[
+		"/F/wamp/www/ruta-cj27/app/Http/Controllers/ContactsController.php",
+		"/F/wamp/www/ruta-cj27/app/Todo.php",
+		"/F/wamp/www/ruta-cj27/app/Http/helpers.php",
+		"/F/wamp/www/ruta-cj27/resources/views/layouts/partials/footer.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/layouts/partials/header.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/layouts/partials/body.blade.php",
+		"/F/wamp/www/ruta-cj27/app/Contact.php",
+		"/F/wamp/www/ruta-cj27/resources/views/layouts/partials/left-navbar.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/contacts/show.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/layouts/partials/head-navbar.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/website.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/contacts/index.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/contacts/_form.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/contacts/edit.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/contacts/create.blade.php",
+		"/F/wamp/www/ruta-cj27/app/Driver.php",
+		"/F/wamp/www/ruta-cj27/app/User.php",
+		"/F/wamp/www/ruta-cj27/database/migrations/2015_11_29_002353_create_contacts_table.php",
+		"/F/wamp/www/ruta-cj27/app/Http/Controllers/HomeController.php",
+		"/F/wamp/www/ruta-cj27/app/Http/Controllers/DriversController.php",
+		"/F/wamp/www/ruta-cj27/app/ImageUploader.php",
+		"/F/wamp/www/ruta-cj27/resources/views/drivers/edit.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/dashboard/index.blade.php",
+		"/F/wamp/www/ruta-cj27/database/seeds/TodosTableSeeder.php",
+		"/F/wamp/www/ruta-cj27/app/Http/Controllers/ImageUploadController.php",
+		"/F/wamp/www/ruta-cj27/resources/views/drivers/birthdays.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/drivers/_birthdays-next-month.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/drivers/_birthdays-this-month.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/drivers/_birthdays-today.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/drivers/index.blade.php",
+		"/F/wamp/www/ruta-cj27/app/Http/routes.php",
+		"/F/wamp/www/ruta-cj27/app/Http/Controllers/TodosController.php",
+		"/F/wamp/www/ruta-cj27/public/assets/css/my-style.css",
+		"/F/wamp/www/ruta-cj27/public/assets/plugins/admin-lte/dist/js/app.js",
+		"/F/wamp/www/ruta-cj27/resources/views/todos/index.blade.php",
+		"/F/wamp/www/ruta-cj27/database/seeds/DatabaseSeeder.php",
+		"/F/wamp/www/ruta-cj27/resources/views/todos/show.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/todos/_form.blade.php",
+		"/F/wamp/www/ruta-cj27/database/migrations/2015_11_26_195519_create_todos_table.php",
+		"/F/wamp/www/ruta-cj27/app/Http/Requests/TodosRequest.php",
+		"/F/wamp/www/ruta-cj27/database/seeds/TodosTablesSeeder.php",
+		"/F/wamp/www/ruta-cj27/database/seeds/UsersTableSeeder.php",
+		"/F/wamp/www/ruta-cj27/resources/views/drivers/show.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/drivers/create.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/welcome.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/views/auth/login.blade.php",
+		"/F/wamp/www/ruta-cj27/database/migrations/2015_11_26_234705_create_drivers_table.php",
+		"/F/wamp/www/ruta-cj27/app/Http/Requests/DriversRequest.php",
+		"/F/wamp/www/ruta-cj27/config/app.php",
+		"/F/wamp/www/ruta-cj27/resources/views/drivers/_form.blade.php",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/User/my_blade_form_input_addon.sublime-snippet",
+		"/F/wamp/www/ruta-cj27/public/assets/plugins/bootstrap/bootstrap.min.css",
+		"/F/wamp/www/ruta-cj27/database/migrations/2015_11_27_001740_create_avatars_table.php",
+		"/F/wamp/www/ruta-cj27/artisan",
+		"/F/wamp/www/ruta-cj27/database/migrations/2015_11_26_234616_create_drivers_table.php",
+		"/F/wamp/www/ruta-cj27/database/migrations/2015_11_26_234533_create_drivers_table.php",
+		"/F/wamp/www/ruta-cj27/composer.json",
+		"/F/wamp/www/ruta-cj27/resources/assets/js/destroy-confirmation.js",
+		"/F/wamp/www/ruta-cj27/resources/views/layouts/partials/messages.blade.php",
+		"/F/wamp/www/ruta-cj27/resources/assets/js/message_hidder.js",
+		"/F/wamp/www/ruta-cj27/.env",
+		"/F/wamp/www/ruta-cj27/admin/app/Http/routes.php",
+		"/F/wamp/www/ruta-cj27/admin/resources/views/auth/login.blade.php",
+		"/F/wamp/www/ruta-cj27/admin/public/.htaccess",
+		"/F/wamp/www/ruta-cj27/admin/composer.json",
+		"/F/wamp/www/ruta-cj27/admin/resources/views/layouts/admin.blade.php",
+		"/F/wamp/www/ruta-cj27/admin/resources/views/layouts/partials/footer.blade.php",
+		"/F/wamp/www/ruta-cj27/admin/resources/views/layouts/partials/body.blade.php",
+		"/F/wamp/www/ruta-cj27/admin/resources/views/layouts/partials/header.blade.php",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/User/laravel-blade.sublime-settings",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/User/my_blade_view.sublime-snippet",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/F/wamp/www/ruta-cj27/admin/config/app.php",
+		"/F/wamp/www/cj27/app/controllers/ContactsController.js",
+		"/F/wamp/www/cj27/app/services/ContactsService.js",
+		"/F/wamp/www/cj27/app/controllers/DashboardController.js",
+		"/F/wamp/www/cj27/admin/index.html",
+		"/F/wamp/www/cj27/app/directives/Pagination.js",
+		"/F/wamp/www/cj27/api/database/seeds/DatabaseSeeder.php",
+		"/F/wamp/www/cj27/app/app.js",
+		"/F/wamp/www/cj27/app/views/contacts/create2.php",
+		"/F/wamp/www/cj27/app/views/contacts/create.php",
+		"/F/wamp/www/cj27/app/views/drivers/create.php",
+		"/F/wamp/www/cj27/app/controllers/DriverController.js",
+		"/F/wamp/www/cj27/app/controllers/TodosController.js",
+		"/F/wamp/www/cj27/app/views/dashboard.php",
+		"/F/wamp/www/cj27/app/views/contacts/_navbar.php",
+		"/F/wamp/www/cj27/api/database/seeds/ContactTableSeeder.php",
+		"/F/wamp/www/cj27/app/controllers/AuthController.js",
+		"/F/wamp/www/cj27/app/services/SessionService.js",
+		"/F/wamp/www/cj27/app/services/AuthService.js",
+		"/F/wamp/www/cj27/api/.gitignore",
+		"/F/wamp/www/cj27/api/.gitattributes",
+		"/F/wamp/www/cj27/.git/config",
+		"/F/wamp/www/cj27/app/services/CitiesService.js",
+		"/F/wamp/www/agency/app/views/drivers/show.php",
+		"/F/wamp/www/agency/app/views/drivers/partials/form.php",
+		"/F/wamp/www/agency/assets/plugins/angular/docs/examples/example-radio-input-directive/index-debug.html",
+		"/F/wamp/www/agency/api/app/Http/Requests/DriversRequests.php",
+		"/F/wamp/www/agency/app/views/drivers/index.php",
+		"/F/wamp/www/agency/app/views/drivers/edit.php",
+		"/F/wamp/www/agency/app/views/drivers/create.php",
+		"/F/wamp/www/agency/api/app/Http/Controllers/CityController.php",
+		"/F/wamp/www/agency/app/controllers/CityController.js",
+		"/F/wamp/www/agency/index.html",
+		"/F/wamp/www/agency/api/app/City.php",
+		"/F/wamp/www/agency/app/views/layouts/partials/loading.php",
+		"/F/wamp/www/agency/app/services/CitiesService.js",
+		"/F/wamp/www/agency/app/views/cities/create.php",
+		"/F/wamp/www/agency/app/views/cities/_form.php",
+		"/F/wamp/www/agency/app/views/cities/index.php",
+		"/F/wamp/www/agency/app/views/cities/edit.php",
+		"/F/wamp/www/agency/api/app/Http/Requests/CityRequests.php",
+		"/F/wamp/www/agency/backend/app/Http/routes.php",
+		"/F/wamp/www/agency/controllers/controllers.js",
+		"/F/wamp/www/agency/services/auth.js",
+		"/F/wamp/www/agency/views/todos/index.php",
+		"/F/wamp/www/agency/apps/app.js",
+		"/F/wamp/www/dainsys/public/js/scripts/employee-punch-edit.js",
+		"/F/wamp/www/agency/backend/app/Http/Kernel.php",
+		"/F/wamp/www/agency/backend/app/Http/Middleware/AngularAuth.php",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/Theme - Default/Default.sublime-theme",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"F:\\wamp\\www\\dainsys-lar",
+			"F:\\wamp\\www\\dainsys2",
+			"F:\\wamp\\www\\dainsys2\\application",
+			"F:\\wamp\\www\\dainsys2\\application\\modules",
+			"F:\\wamp\\www\\dainsys2"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"profiler",
+			"time",
+			"div",
+			"Request ",
+			"Request",
+			",",
+			"drivers",
+			"full_name",
+			"$driver",
+			"driver",
+			"Chofer",
+			"chofer",
+			"Chofer",
+			"drivers",
+			"$driver",
+			", $id",
+			"drivers",
+			"contact",
+			"$driver",
+			"$drivers",
+			"choferes",
+			"Choferes",
+			"{",
+			"(",
+			"6",
+			"ThisMonth",
+			"This",
+			"$request",
+			"$extension",
+			"$fileName",
+			"This",
+			"user",
+			"thisMonth",
+			"ThisMonth",
+			"thisMonth",
+			"orderBy(DB::raw('DAY(dob)'), 'ASC')",
+			"whereDob(date('Y-m-d', strtotime('today')))",
+			"allDrivers",
+			"search",
+			"<h1 class=\"text-center\">",
+			"usted",
+			"h3",
+			"expand(",
+			"main-sidebar",
+			"sidebar-toggle",
+			"open",
+			"active",
+			"color",
+			"init",
+			"visi",
+			"time",
+			"ime",
+			"user",
+			"expan",
+			"false",
+			" col-lg-3",
+			"h3",
+			"hisMonth",
+			"        return $this->whereDob(date('Y-m-d', strtotime('today')))->get();\n",
+			"single",
+			"route",
+			"*/\n",
+			"route",
+			"admin",
+			"drivers.",
+			"route",
+			"admin",
+			"todos.",
+			"route",
+			"todos.",
+			"<form",
+			"form",
+			"update",
+			",",
+			"sm",
+			"form-control",
+			"7",
+			"$todo",
+			"name",
+			"todo",
+			"todos",
+			"../resources/",
+			"../resources/a",
+			"$id",
+			"Request ",
+			"time",
+			"Y-m-d H:m:s\"",
+			"time",
+			"Todos",
+			"todos",
+			"todo",
+			"Todo",
+			"todo",
+			"auth",
+			"$id",
+			"snippet: ",
+			"alt+s",
+			"resources",
+			"{{",
+			"snippets",
+			"ctrl+alt+s",
+			"snippet",
+			"snippets",
+			"snippet",
+			"<div class=\"panel-footer\">",
+			"driver",
+			"drivers",
+			"store",
+			"$rootScope",
+			"cities",
+			"$rootScope",
+			"showModal",
+			"Cédula",
+			"place",
+			"carnet",
+			"telefono_casa",
+			"telefono",
+			"casa",
+			"edit_driver",
+			"fecha_nacimiento",
+			"telefono_celular",
+			"create()",
+			"filter",
+			"theme",
+			"sche",
+			"color",
+			"shrink",
+			"done"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"form-group-sm",
+			"form-group form-group-lg",
+			"permissions",
+			"permission",
+			"Site Messages",
+			"site_messages",
+			"site_message",
+			"Site Message",
+			"Site Messages",
+			"site_message",
+			"site_messages",
+			"employees_editor",
+			"human_resources_editor",
+			"menus_viewer",
+			"menus_editor",
+			"permissions_editor",
+			"permissions_viewer",
+			"profiles_editor",
+			"tags_editor",
+			"articles_editor",
+			"'permissions'",
+			"Role",
+			"Article",
+			"articles",
+			"user",
+			"\\$",
+			"getUserID()",
+			"doGet(",
+			"doGet",
+			"\\$",
+			"",
+			"extends MY_Controller",
+			"Public",
+			"public",
+			"form-group-sm",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Contact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1235,
+								1235
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 423.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/ImageUploader.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								735,
+								735
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/layouts/partials/webpage.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/layouts/website.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/layouts/website-partials/header.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/todos/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Http/helpers.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1348,
+								1348
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/Http/Controllers/TodosController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/Http/Requests/ContactsRequest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674,
+								674
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 29.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/User/chrome_build.sublime-build",
+	"project": "ruta cj27.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rotues",
+				"app\\Http\\routes.php"
+			],
+			[
+				"header.bla",
+				"resources\\views\\layouts\\partials\\header.blade.php"
+			],
+			[
+				"app",
+				"admin\\config\\app.php"
+			],
+			[
+				"driind",
+				"assets\\plugins\\angular\\docs\\examples\\example-radio-input-directive\\index-debug.html"
+			],
+			[
+				"drivreques",
+				"api\\app\\Http\\Requests\\DriversRequests.php"
+			],
+			[
+				"drireq",
+				"api\\app\\Http\\Requests\\DriversRequests.php"
+			],
+			[
+				"driverre",
+				"api\\app\\Http\\Requests\\DriversRequests.php"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"todo",
+				"backend\\app\\Todo.php"
+			],
+			[
+				"agencjs",
+				"assets\\plugins\\twbs\\js\\agency.js"
+			],
+			[
+				"port",
+				"views\\layouts\\portfolios_modals.php"
+			],
+			[
+				"porto",
+				"views\\layouts\\portfolios_modals.php"
+			],
+			[
+				"agencss",
+				"assets\\plugins\\twbs\\css\\agency.css"
+			],
+			[
+				"agencyjs",
+				"assets\\plugins\\twbs\\js\\agency.js"
+			],
+			[
+				"articlesind",
+				"public\\angular-js\\views\\articles\\index.php"
+			],
+			[
+				"services",
+				"public\\angular-js\\services\\services.js"
+			],
+			[
+				"emplocon",
+				"app\\Http\\Controllers\\EmployeesController.php"
+			],
+			[
+				"articlshow",
+				"resources\\views\\articles\\show.blade.php"
+			],
+			[
+				"articleresu",
+				"resources\\views\\articles\\_results.blade.php"
+			],
+			[
+				"articleinde",
+				"resources\\views\\articles\\index.blade.php"
+			],
+			[
+				"artic",
+				"app\\Article.php"
+			],
+			[
+				"article",
+				"app\\Article.php"
+			],
+			[
+				"tagcontro",
+				"app\\Http\\Controllers\\TagsController.php"
+			],
+			[
+				"tagcon",
+				"app\\Http\\Controllers\\TagsController.php"
+			],
+			[
+				"routetags",
+				"app\\Http\\Routes\\tags_routes.php"
+			],
+			[
+				"arti",
+				"app\\Article.php"
+			],
+			[
+				"routeapi",
+				"app\\Http\\Routes\\api_routes.php"
+			],
+			[
+				"routes",
+				"app\\Http\\routes.php"
+			],
+			[
+				"emplo",
+				"app\\Employee.php"
+			],
+			[
+				"routeemp",
+				"dainsys\\app\\Http\\Routes\\employees.php"
+			],
+			[
+				"employecon",
+				"dainsys\\app\\Http\\Controllers\\EmployeesController.php"
+			],
+			[
+				"syst",
+				"dainsys\\app\\System.php"
+			],
+			[
+				"employeefor",
+				"dainsys\\resources\\views\\employees\\_form.blade.php"
+			],
+			[
+				"emploedit",
+				"dainsys\\resources\\views\\employees\\edit.blade.php"
+			],
+			[
+				"emplocontro",
+				"dainsys\\app\\Http\\Controllers\\EmployeesController.php"
+			],
+			[
+				"employeeedit",
+				"dainsys\\resources\\views\\employees\\edit.blade.php"
+			],
+			[
+				"createtermi",
+				"dainsys\\database\\migrations\\2015_06_29_194249_create_terminations_table.php"
+			],
+			[
+				"routedepar",
+				"dainsys\\app\\Http\\Routes\\departments.php"
+			],
+			[
+				"trea",
+				"dainsys\\app\\TerminationReason.php"
+			],
+			[
+				"terminatio",
+				"dainsys\\app\\Termination.php"
+			],
+			[
+				"createterreq",
+				"dainsys\\app\\Http\\Requests\\CreateTerminationsRequest.php"
+			],
+			[
+				"createtermina",
+				"dainsys\\app\\Http\\Requests\\CreateTerminationsRequest.php"
+			],
+			[
+				"createtermin",
+				"dainsys\\database\\migrations\\2015_06_29_194249_create_terminations_table.php"
+			],
+			[
+				"articcon",
+				"dainsys\\app\\Http\\Controllers\\ArticlesController.php"
+			],
+			[
+				"articljs",
+				"dainsys\\public\\js\\scripts\\articles.js"
+			],
+			[
+				"articlesin",
+				"dainsys\\resources\\views\\articles\\index.blade.php"
+			],
+			[
+				"routeempl",
+				"dainsys\\app\\Http\\Routes\\employees.php"
+			],
+			[
+				"articlesjs",
+				"dainsys\\public\\js\\scripts\\articles.js"
+			],
+			[
+				"human",
+				"dainsys\\app\\Http\\Controllers\\HumanResourcesController.php"
+			],
+			[
+				"articlesinde",
+				"dainsys\\resources\\views\\articles\\index.blade.php"
+			],
+			[
+				"mongo",
+				"dainsys\\vendor\\monolog\\monolog\\src\\Monolog\\Formatter\\MongoDBFormatter.php"
+			],
+			[
+				"header",
+				"dainsys\\resources\\views\\layouts\\partials\\header.blade.php"
+			],
+			[
+				"emploinde",
+				"dainsys\\resources\\views\\employees\\index.blade.php"
+			],
+			[
+				"cardform",
+				"dainsys\\resources\\views\\cards\\_form.blade.php"
+			],
+			[
+				"cardscrea",
+				"dainsys\\resources\\views\\cards\\create.blade.php"
+			],
+			[
+				"card",
+				"dainsys\\app\\Card.php"
+			],
+			[
+				"roupun",
+				"dainsys\\app\\Http\\Routes\\punches.php"
+			],
+			[
+				"punchesre",
+				"dainsys\\app\\Http\\Requests\\PunchesRequests.php"
+			],
+			[
+				"routepunche",
+				"dainsys\\app\\Http\\Routes\\punches.php"
+			],
+			[
+				"login",
+				"dainsys\\app\\Login.php"
+			],
+			[
+				"rouecard",
+				"dainsys\\app\\Http\\Routes\\cards.php"
+			],
+			[
+				"routecards",
+				"dainsys\\app\\Http\\Routes\\cards.php"
+			],
+			[
+				"routelogi",
+				"dainsys\\app\\Http\\Routes\\logins.php"
+			],
+			[
+				"cardotro",
+				"dainsys\\app\\Http\\Controllers\\CardsController.php"
+			],
+			[
+				"carreques",
+				"dainsys\\app\\Http\\Requests\\CardsRequests.php"
+			],
+			[
+				"createposi",
+				"dainsys\\database\\migrations\\2015_07_11_172243_create_positions_table.php"
+			],
+			[
+				"createpuch",
+				"dainsys\\database\\migrations\\2015_07_19_200524_create_puches_table.php"
+			],
+			[
+				"createcard",
+				"dainsys\\database\\migrations\\2015_07_19_195835_create_cards_table.php"
+			],
+			[
+				"article.",
+				"dainsys\\app\\Article.php"
+			],
+			[
+				"profiedit",
+				"dainsys\\resources\\views\\profiles\\edit.blade.php"
+			],
+			[
+				"articlesmod",
+				"dainsys\\resources\\views\\articles\\_modal_forms.blade.php"
+			],
+			[
+				"route",
+				"dainsys\\app\\Http\\routes.php"
+			],
+			[
+				"routesite",
+				"dainsys\\app\\Http\\Routes\\site_messages.php"
+			],
+			[
+				"routesys",
+				"dainsys\\app\\Http\\Routes\\systems.php"
+			],
+			[
+				"systemedit",
+				"dainsys\\resources\\views\\systems\\edit.blade.php"
+			],
+			[
+				"emplocontr",
+				"dainsys\\app\\Http\\Controllers\\EmployeesController.php"
+			],
+			[
+				"emploco",
+				"dainsys\\app\\Http\\Controllers\\EmployeesController.php"
+			],
+			[
+				"systeedit",
+				"dainsys\\resources\\views\\systems\\edit.blade.php"
+			],
+			[
+				"routelogins",
+				"dainsys\\app\\Http\\Routes\\logins.php"
+			],
+			[
+				"loginreques",
+				"dainsys\\app\\Http\\Requests\\LoginsRequests.php"
+			],
+			[
+				"syste",
+				"dainsys\\app\\System.php"
+			],
+			[
+				"emploshow",
+				"dainsys\\resources\\views\\employees\\show.blade.php"
+			],
+			[
+				"routeemplo",
+				"dainsys\\app\\Http\\Routes\\employees.php"
+			],
+			[
+				"routelogin",
+				"dainsys\\app\\Http\\Routes\\logins.php"
+			],
+			[
+				"loginsreq",
+				"dainsys\\app\\Http\\Requests\\LoginsRequests.php"
+			],
+			[
+				"logincon",
+				"dainsys\\app\\Http\\Controllers\\LoginsController.php"
+			],
+			[
+				"routesystems",
+				"dainsys\\app\\Http\\Routes\\systems.php"
+			],
+			[
+				"sysedit",
+				"dainsys\\resources\\views\\systems\\edit.blade.php"
+			],
+			[
+				"hel",
+				"dainsys\\app\\Http\\helpers.php"
+			],
+			[
+				"createsys",
+				"dainsys\\database\\migrations\\2015_07_17_114528_create_systems_table.php"
+			],
+			[
+				"route/",
+				"dainsys\\app\\Http\\Routes\\employees.php"
+			],
+			[
+				"syscon",
+				"dainsys\\app\\Http\\Controllers\\SystemsController.php"
+			],
+			[
+				"createsysms",
+				"dainsys\\database\\migrations\\2015_07_17_114528_create_systems_table.php"
+			],
+			[
+				"cmplocon",
+				"dainsys\\app\\Http\\Controllers\\EmployeesController.php"
+			],
+			[
+				"emplolo",
+				"dainsys\\database\\migrations\\2015_07_06_153447_create_employee_login_table.php"
+			],
+			[
+				"proficon",
+				"app\\Http\\Controllers\\ProfilesController.php"
+			],
+			[
+				"profilereques",
+				"app\\Http\\Requests\\ProfilesRequest.php"
+			],
+			[
+				"routepro",
+				"app\\Http\\Routes\\profiles_routes.php"
+			],
+			[
+				"routeintra",
+				"resources\\views\\site\\intranet.blade.php"
+			],
+			[
+				"illuminate/contracts/auth/guard",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Contracts\\Auth\\Guard.php"
+			],
+			[
+				"routeintranet",
+				"resources\\views\\site\\intranet.blade.php"
+			],
+			[
+				"illuminate/foundation/auth/authenticatesandregistersusers",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth\\AuthenticatesAndRegistersUsers.php"
+			],
+			[
+				"illuminate/contracts/auth/registrar",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Contracts\\Auth\\Registrar.php"
+			],
+			[
+				"routeprofi",
+				"app\\Http\\Routes\\profiles_routes.php"
+			],
+			[
+				"usersfor",
+				"resources\\views\\users\\_form.blade.php"
+			],
+			[
+				"usersedit",
+				"resources\\views\\users\\edit.blade.php"
+			],
+			[
+				"profilecon",
+				"app\\Http\\Controllers\\ProfilesController.php"
+			],
+			[
+				"profile",
+				"app\\Profile.php"
+			],
+			[
+				"profishow",
+				"resources\\views\\profiles\\show.blade.php"
+			],
+			[
+				"profilescon",
+				"app\\Http\\Controllers\\ProfilesController.php"
+			],
+			[
+				"user",
+				"app\\User.php"
+			],
+			[
+				"sidebarme",
+				"resources\\views\\layouts\\partials\\side-bar-menu.blade.php"
+			],
+			[
+				"lay2",
+				"resources\\views\\layouts\\2cols.blade.php"
+			],
+			[
+				"sideme",
+				"resources\\views\\layouts\\partials\\side-bar-menu.blade.php"
+			],
+			[
+				"intranet",
+				"resources\\views\\site\\intranet.blade.php"
+			],
+			[
+				"routepos",
+				"app\\Http\\Routes\\positions.php"
+			],
+			[
+				"departmencon",
+				"app\\Http\\Controllers\\DepartmentsController.php"
+			],
+			[
+				"taskcon",
+				"app\\Http\\Controllers\\TasksController.php"
+			],
+			[
+				"helper",
+				"app\\Http\\helpers.php"
+			],
+			[
+				"poshow",
+				"resources\\views\\positions\\show.blade.php"
+			],
+			[
+				"empl",
+				"app\\Employee.php"
+			],
+			[
+				"routepositio",
+				"app\\Http\\Routes\\positions.php"
+			],
+			[
+				"emplocont",
+				"app\\Http\\Controllers\\EmployeesController.php"
+			],
+			[
+				"posireque",
+				"app\\Http\\Requests\\PositionsRequests.php"
+			],
+			[
+				"positionre",
+				"app\\Http\\Requests\\PositionsRequests.php"
+			],
+			[
+				"positioncon",
+				"app\\Http\\Controllers\\PositionsController.php"
+			],
+			[
+				"routeem",
+				"app\\Http\\Routes\\employees.php"
+			],
+			[
+				"posit",
+				"app\\Position.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 370.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

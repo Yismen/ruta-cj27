@@ -1,0 +1,25 @@
+{
+  "name": "ruta-cj27",
+  "description": "proyecto creato para la ruta cj27",
+  "main": "bower.js",
+  "authors": [
+    "Yismen Jorge"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

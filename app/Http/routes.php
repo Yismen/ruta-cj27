@@ -17,18 +17,21 @@ Route::post('auth/login', 'Auth\AuthController@postLogin');
 Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
 // Registration routes...
-Route::get('auth/register', 'Auth\AuthController@getRegister');
-Route::post('auth/register', 'Auth\AuthController@postRegister');
+// Route::get('auth/register', 'Auth\AuthController@getRegister');
+// Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 
 
 Route::get('/', function () {
     return view('layouts.website');
 });
+Route::get('/home', function () {
+    return view('layouts.website');
+});
 
 Route::group(['middleware' => 'auth', 'prefix'=>'admin'], function(){
 
-	Route::get('/', 'HomeController@dashboard');
+	Route::get('/', ['as'=>'admin.index', 'uses'=>'HomeController@dashboard']);
 
 	/**
 	 * ===========================================================

@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="RutaCJ27 Main page">
+    <meta name="author" content="Yismen Jorge">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Ruta CJ27, Santiago</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('assets/plugins/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Ruta CJ27</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,19 +56,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Servicios</a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li> --}}
+                    <li>
+                        <a class="page-scroll" href="#about">Sobre Nosotros</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#team">Directiva</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contáctenos</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="{{ route('admin.index') }}">Admin</a>
@@ -84,9 +84,9 @@
     <header class="blur">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">Lorem ipsum dolor sit amet.</div>
+                <div class="intro-heading">Lorem ipsum dolor sit amet.</div>
+                <a href="#services" class="page-scroll btn btn-xl">Más Detalles</a>
             </div>
         </div>
     </header>
@@ -96,7 +96,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
+                    <h2 class="section-heading">Servicios</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -130,7 +130,7 @@
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+   {{--  <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -225,14 +225,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <!-- About Section -->
+    <!-- Quienes Somos Section -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
+                    <h2 class="section-heading">Quienes Somos</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -308,12 +308,12 @@
         </div>
     </section>
 
-    <!-- Team Section -->
+    <!-- Nuestra Directiva Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h2 class="section-heading">Nuestra Directiva</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -367,6 +367,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <a href="" class="btn btn-primary">Más Sobre Nuestra Directiva</a>
                 </div>
             </div>
         </div>
@@ -405,12 +406,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
+                    <h2 class="section-heading">Déjenos Un Mensaje o LLámenos</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-sm-4">
+                   <div class="well">
+                       <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, sit blanditiis praesentium dolore accusamus voluptate.</div>
+                       <div>Eveniet, et ea, amet optio fugit dolores, corporis repellat necessitatibus illo earum, doloremque voluptatum sunt?</div>
+                       <div>Temporibus quidem iste natus facere, dolorum aliquid corrupti illum culpa cum tenetur inventore, voluptas dicta.</div>
+                   </div>
+                </div>
+                <div class="col-sm-8">
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">

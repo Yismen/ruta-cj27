@@ -6,49 +6,35 @@
 
 			{{-- {{ dd($todos)->toJson() }} --}}
 		<div class="col-sm-4">
-			<div class="well">
-				{!! Form::model($singleTodo, ['route'=>['admin.todos.store'], 'class'=>'', 'role'=>'form', 'autocomplete'=>"off", "novalidate"=>"novalidate"]) !!}		 
-					<div class="form-group">
-						<legend>Agregar Tarea</legend>
-					</div>
-					{{-- Display Errors --}}
-					@if( $errors->any() )
-						<div class="col-sm-12">
-							<div class="alert alert-danger">
-								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-								<ul>
-									@foreach ($errors->all() as $error)
-										<li>{{ $error }}</li>
-									@endforeach
-								</ul>
-							</div>
-						</div>
-					@endif
-					{{-- /. Errors --}}
-				
-					@include('todos._form')
+			<?php 
+				$pending = [];
+				$completed = [];
 
-					<div class="form-group">
-						<button class="form-control btn btn-primary" type="submit">Agregar Tarea <i class="fa fa-plus"></i></button>
-					</div>
-				
-				{!! Form::close() !!}
-			</div>
+				foreach ($todos as $value){
+					if ($value->done) {
+						array_push($completed, $value);
+					} else {
+						array_push($pending, $value);
+					}				
+				}
+			 ?>
+			@include('todos.create')
 		</div>
 		<div class="col-sm-8">
 			<div class="table-responsive">
-				<h1 class="page-header text-center">Tus Tareas Pendientes</h1>
-				<table class="table table-condensed table-hover">
-					<thead>
-						<tr>
-							<th>Tarea:</th>
-							<th>Programada Para:</th>
-							<th colspan="2">Estado:</th>
-						</tr>
-					</thead>
-					<tbody>
-						@foreach ($todos as $todo)
-							@if (!$todo->done)
+				@if (count($pending) > 0)
+					
+					<h1 class="page-header text-center">Tus Tareas Pendientes</h1>
+					<table class="table table-condensed table-hover">
+						<thead>
+							<tr>
+								<th>Tarea:</th>
+								<th>Programada Para:</th>
+								<th colspan="2">Estado:</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach ($pending as $todo)
 								<tr class="{{ $todo->done ? 'success' : '' }}">
 									<td><a href="{{ route('admin.todos.show', $todo->id) }}">{{ $todo->name }}</a></td>
 									<td class="col-xs-3">{{ $todo->due }}</td>
@@ -62,25 +48,25 @@
 									<td class="col-xs-1">
 										{!! delete_button('admin.todos.destroy', $todo->id) !!}							
 									</td>
-								</tr>
-							@endif								
-						@endforeach
-					</tbody>
-				</table>	
+								</tr>							
+							@endforeach
+						</tbody>
+					</table>					
+				@endif
 
-
-				<h1 class="page-header text-center">Tareas Completadas</h1>
-				<table class="table table-condensed table-hover">
-					<thead>
-						<tr>
-							<th>Tarea:</th>
-							<th>Programada Para:</th>
-							<th colspan="2">Estado:</th>
-						</tr>
-					</thead>
-					<tbody>
-						@foreach ($todos as $todo)
-							@if ($todo->done)
+				{{-- Completed --}}
+				@if (count($completed) > 0)
+					<h1 class="page-header text-center">Tareas Completadas</h1>
+					<table class="table table-condensed table-hover">
+						<thead>
+							<tr>
+								<th>Tarea:</th>
+								<th>Programada Para:</th>
+								<th colspan="2">Estado:</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach ($completed as $todo)
 								<tr class="{{ $todo->done ? 'success' : '' }}">
 									<td><a href="{{ route('admin.todos.show', $todo->id) }}">{{ $todo->name }}</a></td>
 									<td class="col-xs-3">{{ $todo->due }}</td>
@@ -94,11 +80,11 @@
 									<td class="col-xs-1">
 										{!! delete_button('admin.todos.destroy', $todo->id) !!}							
 									</td>
-								</tr>
-							@endif								
-						@endforeach
-					</tbody>
-				</table>	
+								</tr>						
+							@endforeach
+						</tbody>
+					</table>	
+				@endif
 			</div>
 		</div>		
 

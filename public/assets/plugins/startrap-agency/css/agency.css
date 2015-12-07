@@ -10,7 +10,7 @@ body {
   color: #11635B;
 }
 .text-primary {
-  color: #d35400;
+  color: #2c3e50;
 }
 p {
   font-size: 14px;
@@ -27,13 +27,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #d35400;
+  color: #2c3e50;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #a04000;
+  color: #1a242f;
 }
 h1,
 h2,
@@ -49,15 +49,15 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #95a5a6;
+  background-color: #1abc9c;
 }
 .bg-darkest-gray {
-  background-color: #2b1b17;
+  background-color: #9b59b6;
 }
 .btn-primary {
   color: white;
-  background-color: #d35400;
-  border-color: #d35400;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -68,8 +68,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #a04000;
-  border-color: #963c00;
+  background-color: #1a242f;
+  border-color: #161f29;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -91,17 +91,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 P .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #d35400;
-  border-color: #d35400;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 .btn-primary .badge {
-  color: #d35400;
+  color: #2c3e50;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #d35400;
-  border-color: #d35400;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -115,8 +115,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #a04000;
-  border-color: #963c00;
+  background-color: #1a242f;
+  border-color: #161f29;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -138,40 +138,40 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 P .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #d35400;
-  border-color: #d35400;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 .btn-xl .badge {
-  color: #d35400;
+  color: #2c3e50;
   background-color: white;
 }
 .navbar-default {
-  background-color: #2b1b17;
+  background-color: #9b59b6;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
-  color: #d35400;
+  color: #2c3e50;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #a04000;
+  color: #1a242f;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-default .navbar-toggle {
-  background-color: #d35400;
-  border-color: #d35400;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #d35400;
+  background-color: #2c3e50;
 }
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -182,18 +182,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: #d35400;
+  color: #2c3e50;
   outline: none;
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #d35400;
+  background-color: #2c3e50;
 }
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #a04000;
+  background-color: #1a242f;
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -214,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 3px;
   }
   .navbar-default.navbar-shrink {
-    background-color: #2b1b17;
+    background-color: #9b59b6;
     padding: 10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
@@ -309,7 +309,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(211, 84, 0, 0.9);
+  background: rgba(44, 62, 80, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -417,7 +417,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #d35400;
+  background-color: #2c3e50;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -550,7 +550,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #2b1b17;
+  background-color: #9b59b6;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -572,7 +572,7 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #d35400;
+  border-color: #2c3e50;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -626,7 +626,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #2b1b17;
+  background-color: #9b59b6;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -641,7 +641,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #d35400;
+  background-color: #2c3e50;
 }
 .btn:focus,
 .btn:active,
@@ -695,7 +695,7 @@ ul.social-buttons li a:active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2b1b17;
+  background-color: #9b59b6;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -706,7 +706,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2b1b17;
+  background-color: #9b59b6;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -720,11 +720,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #d35400;
+  background: #2c3e50;
 }
 ::selection {
   text-shadow: none;
-  background: #d35400;
+  background: #2c3e50;
 }
 img::selection {
   background: transparent;
@@ -733,7 +733,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #d35400;
+  webkit-tap-highlight-color: #2c3e50;
 }
 .navbar-brand small {
   /*display:block;*/

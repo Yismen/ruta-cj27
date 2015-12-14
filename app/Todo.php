@@ -8,7 +8,8 @@ use Carbon\Carbon;
 
 class Todo extends Model
 {
-    protected $fillable =['user_id', 'name', 'done', 'due'];
+    protected $table = 'todos';
+    protected $fillable = ['user_id', 'name', 'description', 'done', 'due'];
 
     /**
      * ====================================================================

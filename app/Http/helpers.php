@@ -54,3 +54,8 @@ function delete_button($route, $parameter = null, $options = [])
 
 }
 
+function delete_form_x($route, $parameters, $options)
+{
+	
+}
+

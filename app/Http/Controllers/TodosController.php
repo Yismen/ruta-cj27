@@ -31,6 +31,7 @@ class TodosController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    
     public function create(Todo $todo)
     {
     }
@@ -132,5 +133,13 @@ class TodosController extends Controller
 
         return redirect()->back()
              ->withSuccess("La tarea [$todo->name] ha sido marcada como pendiente"); 
+    }
+
+    public function removeDoneTasks(Todo $todos)
+    {
+        $todos->where('done', 1)->delete();  
+
+        return redirect()->route('admin.todos.index')
+             ->withWarning("All tasks marked as done have been removed!"); 
     }
 }

@@ -106,4 +106,73 @@ class ContactsController extends Controller
         return redirect()->route('admin.contacts.index')
             ->withWarning("Se ha eliminado el contacto $contact->name. ");
     }
+
+    /**
+     * Allows to search contacts by db indexes 
+     * @param  Request $request [description]
+     * @param  User    $users   [description]
+     * @return [type]           [description]
+     */
+    public function search(Request $request, Contact $contacts)
+    {
+        $searchs = explode(' ', $request->get('search'));
+
+        foreach ($searchs as $key => $value) {
+            $contacts = $contacts
+                ->orWhere('name', 'like', "%$value%")
+                ->orWhere('mobile', 'like', "%$value%")
+                ->orWhere('secondary', 'like', "%$value%")
+                ->orWhere('email', 'like', "%$value%")
+                ->orWhere('address', 'like', "%$value%")
+                ;
+        }
+
+        $contacts = $contacts->paginate(10)->appends(['search' => $request->get('search')]);
+        
+        $request->flash();
+        return view('contacts.index', compact('contacts'));
+    }
+
+    /**
+     * Save a main image for this contact
+     * @param  Request $request user inputs and request
+     * @param  Contact $contact current contact
+     * @return [type]           [description]
+     */
+    public function postImage(Request $request, Contact $contact, $id)
+    {
+        $this->validate($request, [
+            'photo' => 'required|image|max:4000',
+        ]);
+        $contact = $contact->find($id);
+
+        $file = $request->file('photo');
+        $localPath = 'images/contacts/'; // local folder where the image will be loaded to
+        $fileName = sha1($contact->id . $contact->name); // $fileName = str_random(40); //username sha1ed, so it is unique
+        $extension = "." . $file->getClientOriginalExtension(); // $fileName = str_random(40); //username sha1ed, so it is unique
+        $extendedName = $localPath . $fileName . $extension;
+
+        $img = \File::get($file);
+
+        $save = \File::put($extendedName, $img);
+
+        if ($save) {
+
+            $contact->photo = $extendedName;
+            $contact->update();
+
+        } else {
+            return dd($save);
+        }       
+
+        if ($request->ajax()) {
+            return response()->json([
+                'success' => 1, 
+                'data' => $contact
+            ]);
+        }
+
+        return redirect()->route('admin.contacts.edit', $contact->id)
+            ->withSuccess("Main image updated...");
+    }
 }

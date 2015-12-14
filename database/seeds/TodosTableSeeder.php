@@ -13,12 +13,12 @@ class TodosTableSeeder extends Seeder
     public function run()
     {
     	$todo = new Todo;
-        for ($i=0; $i < 5; $i++) { 
+        for ($i=0; $i < 2500; $i++) { 
             $todo->create([
-                'user_id' => 1,
+                // 'user_id' => 1,
                 'name' => 'Todo Default '.$i,
                 'done'=> 0,
-                'due'=>new Datetime
+                'due'=> date("Y-m-d")
             ]);
 
         }

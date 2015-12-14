@@ -16,7 +16,7 @@
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
           <!-- <li class="header">LABELS</li> -->
-          <li><a href="/admin"><i class="fa fa-circle-o text-aqua"></i> <span>Página Principal</span></a></li>
+          <li><a href="{{ url('/admin') }}"><i class="fa fa-circle-o text-aqua"></i> <span>Página Principal</span></a></li>
           <li class="header">NAVEGACION PRINCIPAL</li>
           <li class="active treeview">
             <a href="">

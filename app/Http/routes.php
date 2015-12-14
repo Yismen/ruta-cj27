@@ -17,9 +17,16 @@ Route::post('auth/login', 'Auth\AuthController@postLogin');
 Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
 // Registration routes...
-// Route::get('auth/register', 'Auth\AuthController@getRegister');
-// Route::post('auth/register', 'Auth\AuthController@postRegister');
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
 
+// Password reset link request routes...
+Route::get('password/email', 'Auth\PasswordController@getEmail');
+Route::post('password/email', 'Auth\PasswordController@postEmail');
+
+// Password reset routes...
+Route::get('password/reset/{token}', 'Auth\PasswordController@getReset');
+Route::post('password/reset', 'Auth\PasswordController@postReset');
 
 
 Route::get('/', function () {
@@ -33,12 +40,13 @@ Route::group(['middleware' => 'auth', 'prefix'=>'admin'], function(){
 
 	Route::get('/', ['as'=>'admin.index', 'uses'=>'HomeController@dashboard']);
 
+	
 	/**
 	 * ===========================================================
 	 * Contacts
 	 */
-	
-	Route::post('contacts/image/{id}', ['as'=>'admin.contacts.image', 'uses'=>'DriversController@postImage']);
+	Route::get('contacts/search', ['as'=>'admin.contacts.search', 'uses'=>'ContactsController@search']);		
+	Route::post('contacts/image/{id}', ['as'=>'admin.contacts.image', 'uses'=>'ContactsController@postImage']);
 	Route::bind('contacts', function($id){
 		return App\Contact::
 			whereUserId(auth()->user()->id)
@@ -46,7 +54,6 @@ Route::group(['middleware' => 'auth', 'prefix'=>'admin'], function(){
 	});
 
 	Route::resource('contacts', 'ContactsController', []);
-
 	/**
 	 * Drivers
 	 */
@@ -61,17 +68,20 @@ Route::group(['middleware' => 'auth', 'prefix'=>'admin'], function(){
 
 	Route::resource('drivers', 'DriversController');
 
-	/**
-	 * Todos
-	 */
 
-	Route::get('todos/completar/{id}', ['as'=>'admin.todos.completar', 'uses'=>'TodosController@completar']);
-	Route::get('todos/incompletar/{id}', ['as'=>'admin.todos.incompletar', 'uses'=>'TodosController@incompletar']);
-	
-	Route::bind("todos", function($id){
-		return \App\Todo::whereUserId(Auth::user()->id)->findOrFail($id);
-	});
-	
-	Route::resource('todos', 'TodosController', []);
+		/**
+		 * Todos
+		 */
+
+		Route::get('todos/completar/{id}', ['as'=>'admin.todos.completar', 'uses'=>'TodosController@completar']);
+		Route::get('todos/incompletar/{id}', ['as'=>'admin.todos.incompletar', 'uses'=>'TodosController@incompletar']);
+		Route::delete('todos/remove_done_tasks', ['as'=>'admin.todos.remove_done_tasks', 'uses'=>'TodosController@removeDoneTasks']);
+		
+		Route::bind("todos", function($id){
+			return \App\Todo::whereUserId(Auth::user()->id)->findOrFail($id);
+		});
+		
+		Route::resource('todos', 'TodosController', []);
+
 
 });

@@ -90,10 +90,10 @@
 		{!! Form::label('public', 'Visibilidad:', ['class'=>'']) !!}
 		<div class="input-group">
 			<label class="radio-inline">
-				<input type="radio" name="public" id="inlineRadio1" value="0" checked="checked" > Privado
+				{!! Form::radio('public', 0, null, ['options']) !!} Privado
 			</label>
 			<label class="radio-inline">
-				<input type="radio" name="public" id="inlineRadio2" value="1"> Público
+				{!! Form::radio('public', 1, null, ['options']) !!} Publico
 			</label>
 		</div>
 	</div>

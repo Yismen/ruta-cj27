@@ -12,42 +12,43 @@
 						</div>				
 
 						@include('drivers._form')
-		
-						<div class="col-xs-6">	
-							<div class="form-group">
-								<button type="submit" class="btn btn-primary form-control">Editar</button>
-							</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary col-sm-8">Editar</button>
 						</div>
-						{{-- {!! delete_button('admin.drivers.destroy', $driver->id) !!} --}}
+					{{-- {!! delete_button('admin.drivers.destroy', $driver->id) !!} --}}
 						
 
 					{!! Form::close() !!}
 
 					
 						
-						<div class="col-xs-6">
+					<div class="form-group">
+						<div class="row">
 							<div class="form-group">
 								{!! delete_button('admin.drivers.destroy', $driver->id, ['class'=>'btn btn-danger ', 'label'=>'Remover Chofer']) !!}
 							</div>
 						</div>
+					</div>
 					
 					<hr>
-					<div class="form-group">
-						<div class="col-xs-6">
-							<img src="http://placehold.it/300x150" class="img-responsive" alt="Image">
-						</div>
-						<div class="col-xs-6">
-							{!! Form::open(['route'=>['admin.drivers.image', $driver->id], 'method'=>'POST', 'class'=>'', 'role'=>'form', 'autocomplete'=>"off"]) !!}		
-								<div class="form-group @if($errors->first('main_image')) has-error @endif">
-								    {!! Form::label('main_image', 'Foto del Chofer') !!}
-								    {!! Form::file('main_image') !!}
-								    <p class="help-block">Cargue una foto del chofer. Tambien puede cambiarla aqui.</p>
-								    <small class="text-danger">{{ $errors->first('main_image') }}</small>
-								</div>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-xs-6">
+								<img src="http://placehold.it/300x150" class="img-responsive" alt="Image">
+							</div>
+							<div class="col-xs-6">
+								{!! Form::open(['route'=>['admin.drivers.image', $driver->id], 'method'=>'POST', 'class'=>'', 'role'=>'form', 'autocomplete'=>"off"]) !!}		
+									<div class="form-group @if($errors->first('main_image')) has-error @endif">
+									    {!! Form::label('main_image', 'Foto del Chofer') !!}
+									    {!! Form::file('main_image') !!}
+									    <p class="help-block">Cargue una foto del chofer. Tambien puede cambiarla aqui.</p>
+									    <small class="text-danger">{{ $errors->first('main_image') }}</small>
+									</div>
 
-								<button type="submit" class="btn btn-sm btn-info">Guardar Foto</button>								
-							{!! Form::close() !!}
-						</div>
+									<button type="submit" class="btn btn-sm btn-info">Guardar Foto</button>								
+								{!! Form::close() !!}
+							</div>
+					</div>
 					</div>
 				</div>
 

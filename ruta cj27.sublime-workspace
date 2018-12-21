@@ -9,11 +9,11 @@
 			],
 			[
 				"if",
-				"if	if …"
+				"if\tif …"
 			],
 			[
 				"mybladeselectho",
-				"my_blade_select_horizontal	my_blade_form_select_horizontal"
+				"my_blade_select_horizontal\tmy_blade_form_select_horizontal"
 			],
 			[
 				"arraymer",
@@ -21,7 +21,7 @@
 			],
 			[
 				"arapu",
-				"array_push()	standard Function"
+				"array_push()\tstandard Function"
 			],
 			[
 				"lay",
@@ -29,7 +29,7 @@
 			],
 			[
 				"Contacts",
-				"ContactsRequest	(ContactsRequest.php)"
+				"ContactsRequest\t(ContactsRequest.php)"
 			],
 			[
 				"user",
@@ -41,31 +41,31 @@
 			],
 			[
 				"Fields",
-				"Field::string	VARCHAR equivalent with a length (optional)"
+				"Field::string\tVARCHAR equivalent with a length (optional)"
 			],
 			[
 				"Field",
-				"Field::default	Declare a default value for a column"
+				"Field::default\tDeclare a default value for a column"
 			],
 			[
 				"Contact",
-				"ContactsController	(ContactsController.php)"
+				"ContactsController\t(ContactsController.php)"
 			],
 			[
 				"C",
-				"Contact	(ContactsController.php)"
+				"Contact\t(ContactsController.php)"
 			],
 			[
 				"Fieldtime",
-				"Field::timestamp	TIMESTAMP equivalent to the table"
+				"Field::timestamp\tTIMESTAMP equivalent to the table"
 			],
 			[
 				"Fieldate",
-				"Field::dateTime	DATETIME equivalent to the table"
+				"Field::dateTime\tDATETIME equivalent to the table"
 			],
 			[
 				"Image",
-				"ImageUploader	(ImageUploader.php)"
+				"ImageUploader\t(ImageUploader.php)"
 			],
 			[
 				"birth",
@@ -73,11 +73,11 @@
 			],
 			[
 				"bir",
-				"birthdaysToday	(HomeController.php)"
+				"birthdaysToday\t(HomeController.php)"
 			],
 			[
 				"birt",
-				"birthdays	(routes.php)"
+				"birthdays\t(routes.php)"
 			],
 			[
 				"fonts",
@@ -85,23 +85,23 @@
 			],
 			[
 				"getbir",
-				"getBirthdaysTodayCounth	(Driver.php)"
+				"getBirthdaysTodayCounth\t(Driver.php)"
 			],
 			[
 				"getBir",
-				"getBirthdaysThisMonthCounth	(Driver.php)"
+				"getBirthdaysThisMonthCounth\t(Driver.php)"
 			],
 			[
 				"birththis",
-				"birthdaysThisMonth	(HomeController.php)"
+				"birthdaysThisMonth\t(HomeController.php)"
 			],
 			[
 				"strtotime",
-				"strtotime()	date Function"
+				"strtotime()\tdate Function"
 			],
 			[
 				"Fiel",
-				"Field::string	VARCHAR equivalent with a length (optional)"
+				"Field::string\tVARCHAR equivalent with a length (optional)"
 			],
 			[
 				"fu",
@@ -109,11 +109,11 @@
 			],
 			[
 				"full_",
-				"full_name	(DriversController.php)"
+				"full_name\t(DriversController.php)"
 			],
 			[
 				"expl",
-				"explode()	standard Function"
+				"explode()\tstandard Function"
 			],
 			[
 				"Driver",
@@ -121,43 +121,43 @@
 			],
 			[
 				"Routeg",
-				"Route::get	Basic Route with Closure"
+				"Route::get\tBasic Route with Closure"
 			],
 			[
 				"compa",
-				"compact()	standard Function"
+				"compact()\tstandard Function"
 			],
 			[
 				"Fieldstring",
-				"Field::string	VARCHAR equivalent with a length (optional)"
+				"Field::string\tVARCHAR equivalent with a length (optional)"
 			],
 			[
 				"Formte",
-				"Form-textarea	Form-textarea"
+				"Form-textarea\tForm-textarea"
 			],
 			[
 				"Routegetcon",
-				"Route::getController	Route to Controller Action"
+				"Route::getController\tRoute to Controller Action"
 			],
 			[
 				"plug",
-				"plugin	plugin (selector)"
+				"plugin\tplugin (selector)"
 			],
 			[
 				"strotime",
-				"strtotime()	date Function"
+				"strtotime()\tdate Function"
 			],
 			[
 				"Fieldti",
-				"Field::timestamp	TIMESTAMP equivalent to the table"
+				"Field::timestamp\tTIMESTAMP equivalent to the table"
 			],
 			[
 				"toJson",
-				"toJson(obj, pretty)	angular-scenario.js"
+				"toJson(obj, pretty)\tangular-scenario.js"
 			],
 			[
 				"curre",
-				"current_user	(AuthController.js)"
+				"current_user\t(AuthController.js)"
 			],
 			[
 				"seC",
@@ -165,7 +165,7 @@
 			],
 			[
 				"module",
-				"module	(ContactsController.js)"
+				"module\t(ContactsController.js)"
 			],
 			[
 				"dri",
@@ -173,7 +173,7 @@
 			],
 			[
 				"cword",
-				"ucwords()	standard Function"
+				"ucwords()\tstandard Function"
 			],
 			[
 				"auth",
@@ -185,63 +185,63 @@
 			],
 			[
 				"reject",
-				"reject(reason)	angular.js"
+				"reject(reason)\tangular.js"
 			],
 			[
 				"defer",
-				"defer()	angular.js"
+				"defer()\tangular.js"
 			],
 			[
 				"serv",
-				"service	AngularJS"
+				"service\tAngularJS"
 			],
 			[
 				"ea",
-				"each	$.each()"
+				"each\t$.each()"
 			],
 			[
 				"conso",
-				"consoleLog(type)	angular-scenario.js"
+				"consoleLog(type)\tangular-scenario.js"
 			],
 			[
 				"arraypu",
-				"array_push()	standard Function"
+				"array_push()\tstandard Function"
 			],
 			[
 				"filt",
-				"filter( selector )	angular-scenario.js"
+				"filter( selector )\tangular-scenario.js"
 			],
 			[
 				"Routep",
-				"Route-post	Route-post"
+				"Route-post\tRoute-post"
 			],
 			[
 				"succ",
-				"success(fn)	angular-scenario.js"
+				"success(fn)\tangular-scenario.js"
 			],
 			[
 				"suc",
-				"success(data)	gcal.js"
+				"success(data)\tgcal.js"
 			],
 			[
 				"Rg",
-				"Route-group	Route-group"
+				"Route-group\tRoute-group"
 			],
 			[
 				"Fieldstri",
-				"Field::string	VARCHAR equivalent with a length (optional)"
+				"Field::string\tVARCHAR equivalent with a length (optional)"
 			],
 			[
 				"Sche",
-				"Schema-create	Schema-create"
+				"Schema-create\tSchema-create"
 			],
 			[
 				"filter",
-				"filter( selector )	angular-scenario.js"
+				"filter( selector )\tangular-scenario.js"
 			],
 			[
 				"_filter",
-				"verbose_$filter	AngularJS"
+				"verbose_$filter\tAngularJS"
 			],
 			[
 				"li",
@@ -249,11 +249,11 @@
 			],
 			[
 				"getTodos",
-				"getTodos()	controllers.js"
+				"getTodos()\tcontrollers.js"
 			],
 			[
 				"ngv",
-				"ng-view	AngularJS"
+				"ng-view\tAngularJS"
 			],
 			[
 				"em",
@@ -261,23 +261,23 @@
 			],
 			[
 				"routepa",
-				"$routeParams	AngularJS"
+				"$routeParams\tAngularJS"
 			],
 			[
 				"ngre",
-				"ng-repeat	AngularJS"
+				"ng-repeat\tAngularJS"
 			],
 			[
 				"Route",
-				"Route-group	Route-group"
+				"Route-group\tRoute-group"
 			],
 			[
 				"fac",
-				"factory(string, Function)	angular-loader.js"
+				"factory(string, Function)\tangular-loader.js"
 			],
 			[
 				"$htt",
-				"$http	AngularJS"
+				"$http\tAngularJS"
 			],
 			[
 				"emp",
@@ -285,23 +285,23 @@
 			],
 			[
 				"Inpua",
-				"Input-ajax	Input-ajax"
+				"Input-ajax\tInput-ajax"
 			],
 			[
 				"get",
-				"get	.get()"
+				"get\t.get()"
 			],
 			[
 				"plugin",
-				"plugin	plugin (method extras)"
+				"plugin\tplugin (method extras)"
 			],
 			[
 				"preven",
-				"preventDefault()	jquery.js"
+				"preventDefault()\tjquery.js"
 			],
 			[
 				"plu",
-				"plugin	plugin (selector)"
+				"plugin\tplugin (selector)"
 			],
 			[
 				"funcit",
@@ -309,15 +309,15 @@
 			],
 			[
 				"ex",
-				"exerpt	(show.html)"
+				"exerpt\t(show.html)"
 			],
 			[
 				"Post",
-				"PostsController	(app.js)"
+				"PostsController\t(app.js)"
 			],
 			[
 				"templateUrl",
-				"templateUrl(elem, attr)	script.js"
+				"templateUrl(elem, attr)\tscript.js"
 			],
 			[
 				"empl",
@@ -325,43 +325,43 @@
 			],
 			[
 				"isSe",
-				"isSelected	(app.js)"
+				"isSelected\t(app.js)"
 			],
 			[
 				"Fieldstr",
-				"Field::string	VARCHAR equivalent with a length (optional)"
+				"Field::string\tVARCHAR equivalent with a length (optional)"
 			],
 			[
 				"Fieldst",
-				"Field::string	VARCHAR equivalent with a length (optional)"
+				"Field::string\tVARCHAR equivalent with a length (optional)"
 			],
 			[
 				"Fieldnu",
-				"Field::unique	Add a unique index"
+				"Field::unique\tAdd a unique index"
 			],
 			[
 				"Filedda",
-				"Field::dateTime	DATETIME equivalent to the table"
+				"Field::dateTime\tDATETIME equivalent to the table"
 			],
 			[
 				"Fielddate",
-				"Field::dateTime	DATETIME equivalent to the table"
+				"Field::dateTime\tDATETIME equivalent to the table"
 			],
 			[
 				"File",
-				"File-files	File-files"
+				"File-files\tFile-files"
 			],
 			[
 				"Input",
-				"Input-all	Input-all"
+				"Input-all\tInput-all"
 			],
 			[
 				"Form-",
-				"Form-image	Form-image"
+				"Form-image\tForm-image"
 			],
 			[
 				"view",
-				"view()	mixed"
+				"view()\tmixed"
 			],
 			[
 				"col",
@@ -369,11 +369,11 @@
 			],
 			[
 				"emplo",
-				"employees	(employees.php)"
+				"employees\t(employees.php)"
 			],
 			[
 				"trim",
-				"trim()	standard Function"
+				"trim()\tstandard Function"
 			],
 			[
 				"produ",
@@ -393,7 +393,7 @@
 			],
 			[
 				"route",
-				"route('positions	(create.blade.php)"
+				"route('positions\t(create.blade.php)"
 			],
 			[
 				"positio",
@@ -401,11 +401,11 @@
 			],
 			[
 				"payment",
-				"payment_id	(Position.php)"
+				"payment_id\t(Position.php)"
 			],
 			[
 				"Fied",
-				"Field::double	DOUBLE equivalent with precision"
+				"Field::double\tDOUBLE equivalent with precision"
 			],
 			[
 				"loc",
@@ -429,23 +429,23 @@
 			],
 			[
 				"src",
-				"script	HTML - Script"
+				"script\tHTML - Script"
 			],
 			[
 				"response",
-				"responseJSON	(edit.blade.php)"
+				"responseJSON\t(edit.blade.php)"
 			],
 			[
 				"PATHIN",
-				"PATHINFO_EXTENSION	standard Constant"
+				"PATHINFO_EXTENSION\tstandard Constant"
 			],
 			[
 				"exte",
-				"extension	(ArticlesController.php)"
+				"extension\t(ArticlesController.php)"
 			],
 			[
 				"Formfile",
-				"Form::openWithFileUpload	Open a Form and Enable File Upload"
+				"Form::openWithFileUpload\tOpen a Form and Enable File Upload"
 			],
 			[
 				"addres",
@@ -457,7 +457,7 @@
 			],
 			[
 				"address",
-				"addresses	(Employee.php)"
+				"addresses\t(Employee.php)"
 			],
 			[
 				"las",
@@ -465,15 +465,15 @@
 			],
 			[
 				"position",
-				"position_id	(_form.blade.php)"
+				"position_id\t(_form.blade.php)"
 			],
 			[
 				"Sch",
-				"Schema-drop	Schema-drop"
+				"Schema-drop\tSchema-drop"
 			],
 			[
 				"Schemaal",
-				"Schema::table	Update an existing table"
+				"Schema::table\tUpdate an existing table"
 			],
 			[
 				"cas",
@@ -493,7 +493,7 @@
 			],
 			[
 				"fai",
-				"fail(actual, expected, message, operator)	chai.js"
+				"fail(actual, expected, message, operator)\tchai.js"
 			],
 			[
 				"has",
@@ -501,15 +501,15 @@
 			],
 			[
 				"Fielf",
-				"Field::foreign	Add a Foreign Key to a table"
+				"Field::foreign\tAdd a Foreign Key to a table"
 			],
 			[
 				"Fieldfore",
-				"Field::foreign	Add a Foreign Key to a table"
+				"Field::foreign\tAdd a Foreign Key to a table"
 			],
 			[
 				"Fieldin",
-				"Field::integer	INTEGER equivalent to the table"
+				"Field::integer\tINTEGER equivalent to the table"
 			],
 			[
 				"btn",
@@ -520,11 +520,62 @@
 	"buffers":
 	[
 		{
+			"file": "config/app.php",
+			"settings":
+			{
+				"buffer_size": 8496,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 2907,
+				"buffer_size": 3832,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/partials/left-navbar.blade.php",
+			"settings":
+			{
+				"buffer_size": 2617,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/drivers/edit.blade.php",
+			"settings":
+			{
+				"buffer_size": 2086,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/contacts/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 2777,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/layouts/website.blade.php",
+			"settings":
+			{
+				"buffer_size": 36190,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 208,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -535,17 +586,21 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 155.0,
-		"last_filter": "Package Control: ins",
+		"height": 317.0,
+		"last_filter": "Snippet: bladeif",
 		"selected_items":
 		[
 			[
-				"Package Control: ins",
-				"Package Control: Install Package"
+				"Snippet: bladeif",
+				"Snippet: blade-if"
 			],
 			[
 				"Snippet: if",
 				"Snippet: blade-if"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
 			],
 			[
 				"Package Control: ",
@@ -1046,13 +1101,9 @@
 			[
 				"Snippet: navbarfo",
 				"Snippet: bs3-navbar-form"
-			],
-			[
-				"Snippet: mailto",
-				"Snippet: TIME equivalent to the table"
 			]
 		],
-		"width": 528.0
+		"width": 510.0
 	},
 	"console":
 	{
@@ -1079,21 +1130,21 @@
 	[
 		"/F/wamp/www/ruta-cj27",
 		"/F/wamp/www/ruta-cj27/admin",
-		"/F/wamp/www/ruta-cj27/bootstrap",
-		"/F/wamp/www/ruta-cj27/config",
-		"/F/wamp/www/ruta-cj27/database/seeds",
+		"/F/wamp/www/ruta-cj27/database/migrations",
 		"/F/wamp/www/ruta-cj27/resources",
-		"/F/wamp/www/ruta-cj27/resources/views",
-		"/F/wamp/www/ruta-cj27/resources/views/contacts",
+		"/F/wamp/www/ruta-cj27/resources/assets",
 		"/F/wamp/www/ruta-cj27/resources/views/layouts",
-		"/F/wamp/www/ruta-cj27/resources/views/layouts/partials"
+		"/F/wamp/www/ruta-cj27/resources/views/layouts/website-partials"
 	],
 	"file_history":
 	[
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/PhpCodeGen/phpcodegen.sublime-settings",
+		"/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/User/phpcodegen.sublime-settings",
+		"/F/wamp/www/ruta-cj27/app/Http/routes.php",
 		"/F/wamp/www/ruta-cj27/resources/views/layouts/website.blade.php",
 		"/F/wamp/www/ruta-cj27/database/seeds/TodosTableSeeder.php",
 		"/F/wamp/www/ruta-cj27/app/Http/Controllers/ContactsController.php",
-		"/F/wamp/www/ruta-cj27/app/Http/routes.php",
 		"/F/wamp/www/ruta-cj27/resources/views/contacts/_form.blade.php",
 		"/F/wamp/www/ruta-cj27/config/app.php",
 		"/F/wamp/www/ruta-cj27/vendor/vlucas/phpdotenv/src/Dotenv.php",
@@ -1214,10 +1265,7 @@
 		"/F/wamp/www/cj27/app/views/contacts/create.php",
 		"/F/wamp/www/cj27/app/views/drivers/create.php",
 		"/F/wamp/www/cj27/app/controllers/DriverController.js",
-		"/F/wamp/www/cj27/app/controllers/TodosController.js",
-		"/F/wamp/www/cj27/app/views/dashboard.php",
-		"/F/wamp/www/cj27/app/views/contacts/_navbar.php",
-		"/F/wamp/www/cj27/api/database/seeds/ContactTableSeeder.php"
+		"/F/wamp/www/cj27/app/controllers/TodosController.js"
 	],
 	"find":
 	{
@@ -1421,36 +1469,232 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/routes.php",
+					"file": "config/app.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2907,
+						"buffer_size": 8496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								600
+								5794,
+								5794
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1911.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1327,
+								1327
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 666.0,
+						"translation.y": 161.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/layouts/partials/left-navbar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1149,
+								1149
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".php",
+								"current_syntax": "Laravel Blade Highlighter/laravel-blade",
+								"enabled": false,
+								"last_updated": 1488511165.99
+							},
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/drivers/edit.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1485,
+								1485
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/contacts/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1468,
+								1468
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/layouts/website.blade.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 36190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1395.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Yismen/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1509,16 +1753,24 @@
 		"selected_items":
 		[
 			[
+				"contactin",
+				"resources\\views\\contacts\\index.blade.php"
+			],
+			[
+				"driversed",
+				"resources\\views\\drivers\\edit.blade.php"
+			],
+			[
+				"configapp",
+				"config\\app.php"
+			],
+			[
 				"routes",
 				"app\\Http\\routes.php"
 			],
 			[
 				"dotenv",
 				"vendor\\vlucas\\phpdotenv\\src\\Dotenv.php"
-			],
-			[
-				"configapp",
-				"config\\app.php"
 			],
 			[
 				"route",
@@ -2011,14 +2263,6 @@
 			[
 				"routepositio",
 				"app\\Http\\Routes\\positions.php"
-			],
-			[
-				"emplocont",
-				"app\\Http\\Controllers\\EmployeesController.php"
-			],
-			[
-				"posireque",
-				"app\\Http\\Requests\\PositionsRequests.php"
 			]
 		],
 		"width": 0.0
@@ -2026,9 +2270,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "da",
 		"selected_items":
 		[
+			[
+				"da",
+				"F:\\wamp\\www\\dainsys3\\dainsys3.sublime-project"
+			],
+			[
+				"",
+				"F:\\wamp\\www\\solpieles\\sol pieles.sublime-workspace"
+			]
 		],
 		"width": 380.0
 	},
@@ -2049,7 +2301,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 53.0,
+	"side_bar_width": 300.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

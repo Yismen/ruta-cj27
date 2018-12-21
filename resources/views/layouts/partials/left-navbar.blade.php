@@ -29,6 +29,19 @@
               <li class="active"><a href="{{ route('admin.todos.index') }}"><i class="fa fa-circle-o"></i> Tareas</a></li>
             </ul>
           </li>
+
+          @if (auth()->user()->role->role == 'admin')
+            {{-- expr --}}
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-cogs"></i> <span> Admin Section</span> <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li class=""><a href="{{ route('admin.roles.index') }}"><i class="fa fa-circle-o"></i> Roles</a></li>
+                <li class=""><a href="{{ route('admin.users.index') }}"><i class="fa fa-circle-o"></i> Users</a></li>
+              </ul>
+            </li>
+          @endif
           
           <li class="header">CONTROL DE SESION</li>
           <li><a href="{{ url('auth/logout') }}"><i class="fa fa-circle-o text-red"></i> <span>Salir de la Aplicación</span></a></li>

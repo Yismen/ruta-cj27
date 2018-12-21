@@ -38,15 +38,15 @@
 					<hr>
 					<div class="form-group">
 						<div class="col-xs-6">
-							<img src="http://placehold.it/300x150" class="img-responsive" alt="Image">
+							<img src="{{ asset($contact->photo) }}" class="img-responsive" alt="Image">
 						</div>
 						<div class="col-xs-6">
-							{!! Form::open(['route'=>['admin.contacts.image', $contact->id], 'method'=>'POST', 'class'=>'', 'role'=>'form', 'autocomplete'=>"off"]) !!}		
-								<div class="form-group @if($errors->first('main_image')) has-error @endif">
-								    {!! Form::label('main_image', 'Foto del Contacto') !!}
-								    {!! Form::file('main_image') !!}
+							{!! Form::open(['route'=>['admin.contacts.image', $contact->id], 'method'=>'POST', 'class'=>'', 'role'=>'form', 'autocomplete'=>"off", 'files' => true]) !!}		
+								<div class="form-group @if($errors->first('photo')) has-error @endif">
+								    {!! Form::label('photo', 'Foto del Contacto') !!}
+								    {!! Form::file('photo') !!}
 								    <p class="help-block">Cargue una foto del Contacto. Tambien puede cambiarla aqui.</p>
-								    <small class="text-danger">{{ $errors->first('main_image') }}</small>
+								    <small class="text-danger">{{ $errors->first('photo') }}</small>
 								</div>
 
 								<button type="submit" class="btn btn-sm btn-info">Guardar Foto</button>								

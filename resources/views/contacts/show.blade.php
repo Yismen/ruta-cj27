@@ -8,7 +8,7 @@
 					<h3 class="page-header text-center">Detalles del Contacto [{{ $contact->name }}]</h3>
 					
 					<div class="col-sm-6">
-						<img src="http://placehold.it/500x300" class="img-responsive" alt="Image">
+						<img src="{{ asset($contact->photo) }}" class="img-responsive" alt="Image">
 					</div>
 
 					<div class="col-sm-6">

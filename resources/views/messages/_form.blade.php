@@ -65,7 +65,7 @@
 	<div class="form-group {{ $errors->has('email') ? 'has-error' : null }}">
 		{!! Form::label('email', 'Email:', ['class'=>'']) !!}
 		<div class="input-group">
-			<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+			<div class="input-group-addon"><i class="fa fa-email"></i></div>
 			{!! Form::input('email', 'email', null, ['class'=>'form-control', 'placeholder'=>'Email']) !!}
 		</div>
 	</div>
@@ -90,10 +90,10 @@
 		{!! Form::label('public', 'Visibilidad:', ['class'=>'']) !!}
 		<div class="input-group">
 			<label class="radio-inline">
-				{!! Form::radio('public', 0, null, ['options']) !!} Privado
+				<input type="radio" name="public" id="inlineRadio1" value="0" checked="checked" > Privado
 			</label>
 			<label class="radio-inline">
-				{!! Form::radio('public', 1, null, ['options']) !!} Publico
+				<input type="radio" name="public" id="inlineRadio2" value="1"> Público
 			</label>
 		</div>
 	</div>

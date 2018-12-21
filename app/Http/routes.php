@@ -36,11 +36,12 @@ Route::get('/home', function () {
     return view('layouts.website');
 });
 
+		Route::get('/', ['as'=>'admin.home', 'uses'=>'HomeController@dashboard']);
 Route::group(['middleware' => 'auth', 'prefix'=>'admin'], function(){
 
 	Route::get('/', ['as'=>'admin.index', 'uses'=>'HomeController@dashboard']);
 
-	
+
 	/**
 	 * ===========================================================
 	 * Contacts
@@ -54,6 +55,7 @@ Route::group(['middleware' => 'auth', 'prefix'=>'admin'], function(){
 	});
 
 	Route::resource('contacts', 'ContactsController', []);
+
 	/**
 	 * Drivers
 	 */
@@ -68,20 +70,51 @@ Route::group(['middleware' => 'auth', 'prefix'=>'admin'], function(){
 
 	Route::resource('drivers', 'DriversController');
 
+	/**
+	 * Messages Routes
+	 */
+	Route::get('messages/search', ['as'=>'admin.messages.search', 'uses'=>'MessagesController@search']);
 
-		/**
-		 * Todos
-		 */
+	Route::bind('messages', function($id){
+		return App\Message::findOrFail($id);
+	});
 
-		Route::get('todos/completar/{id}', ['as'=>'admin.todos.completar', 'uses'=>'TodosController@completar']);
-		Route::get('todos/incompletar/{id}', ['as'=>'admin.todos.incompletar', 'uses'=>'TodosController@incompletar']);
-		Route::delete('todos/remove_done_tasks', ['as'=>'admin.todos.remove_done_tasks', 'uses'=>'TodosController@removeDoneTasks']);
-		
-		Route::bind("todos", function($id){
-			return \App\Todo::whereUserId(Auth::user()->id)->findOrFail($id);
-		});
-		
-		Route::resource('todos', 'TodosController', []);
+	Route::resource('messages', 'MessagesController', ['except'=>['create', 'destroy']]);
+
+
+	/**
+	 * Todos
+	 */
+
+	Route::get('todos/completar/{id}', ['as'=>'admin.todos.completar', 'uses'=>'TodosController@completar']);
+	Route::get('todos/incompletar/{id}', ['as'=>'admin.todos.incompletar', 'uses'=>'TodosController@incompletar']);
+	Route::delete('todos/remove_done_tasks', ['as'=>'admin.todos.remove_done_tasks', 'uses'=>'TodosController@removeDoneTasks']);
+	
+	Route::bind("todos", function($id){
+		return \App\Todo::whereUserId(Auth::user()->id)->findOrFail($id);
+	});
+	
+	Route::resource('todos', 'TodosController', []);
+
+	/**
+	 * Users Management
+	 */
+	Route::get('users/search', ['as'=>'admin.users.search', 'uses'=>'UsersController@search']);
+	Route::bind('users', function($id){
+		return App\User::with('role')->findOrFail($id);
+	});
+
+	Route::resource('users', 'UsersController');
+
+	/**
+	 * Roles
+	 */
+	Route::get('roles/detatch_user/{user}/role/{role}', ['as'=>'admin.roles.detatch_user', 'uses'=>'RolesController@detatchUser']);
+	Route::bind('roles', function($id){
+		return App\Role::with('users')->findOrFail($id);
+	});
+
+	Route::resource('roles', 'RolesController');
 
 
 });

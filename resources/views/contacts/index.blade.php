@@ -10,28 +10,28 @@
 							<span class="fa fa-plus"></span>
 						</a> 
 					</h1>
-					{{-- {!! Form::open(['route'=>['admin.contacts.search'], 'method'=>'GET', 'class'=>'', 'role'=>'form', 'autocomplete'=>"off"]) !!}		 --}}
-						{{-- <div class="form-group {{ $errors->has('search') ? 'has-error' : null }}"> --}}
-							{{-- {!! Form::label('search', 'Buscar:', ['class'=>'']) !!} --}}
-							{{-- <div class="input-group">
-								<div class="input-group-btn">
-									<a href="{{ route('admin.contacts.index') }}" class="btn btn-default">Todos</a>
-								</div>
+					{!! Form::open(['route'=>['admin.contacts.search'], 'method'=>'GET', 'class'=>'', 'role'=>'form', 'autocomplete'=>"off"]) !!}		
+						<div class="form-group {{ $errors->has('search') ? 'has-error' : null }}">
+							{!! Form::label('search', 'Buscar:', ['class'=>'']) !!}
+							<div class="input-group">
 								{!! Form::input('search', 'search', null, ['class'=>'form-control', 'placeholder'=>'Buscar']) !!}
 								<div class="input-group-btn">
 									<button type="submit" class="btn btn-default">
 										<i class="fa fa-search"></i>
 									</button>
 								</div>
+								<div class="input-group-btn">
+									<a href="{{ route('admin.contacts.index') }}" class="btn btn-default">All</a>
+								</div>
 							</div>							
 						    <p class="help-block">Puede buscar por cualquier valor</p>
-						</div> --}}
+						</div>
 					
-					{{-- {!! Form::close() !!} --}}
+					{!! Form::close() !!}
 					<!-- /. Buscar -->
 {{--  --}}
 					@if ($contacts->count() > 0)
-						<div class="table-responsivse">
+						<div class="table-responsive">
 							<table class="table table-hover table-condensed">
 								<thead>
 									<tr>
@@ -39,7 +39,7 @@
 										<th>Celular:</th>
 										<th>Casa:</th>
 										<th>Email:</th>	
-										<th>Foto:</th>	
+										<th class="col-xs-1">Foto:</th>	
 										<th>Edit:</th>	
 									</tr>
 								</thead>
@@ -56,9 +56,15 @@
 													{{ $contact->email }}
 												</a>
 											</td>
-											<td><img src="{{ asset($contact->photo) }}" class="img-responsive" alt="Image"></td>
 											<td>
-												<a href="{{ route('admin.contacts.edit', $contact->id) }}"><i class="fa fa-pencil"></i></a>
+												<a href="{{ asset($contact->photo) }}">
+													<img src="{{ asset($contact->photo) }}" class="img-responsive" alt="Image" height="50">
+												</a>
+											</td>
+											<td>
+												@if ($contact->user->id == auth()->user()->id)
+													<a href="{{ route('admin.contacts.edit', $contact->id) }}"><i class="fa fa-pencil"></i></a>
+												@endif
 											</td>
 										</tr>
 									@endforeach
